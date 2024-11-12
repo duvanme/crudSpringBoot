@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Data
 @Entity
-@Table(name = "tbl_student")
+@Table(name = "tbl_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
